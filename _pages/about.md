@@ -1,25 +1,27 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Conversational AI Researcher
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: # >
+  #  <p>555 your office number</p>
+  #  <p>123 your address street</p>
+  #  <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first year doctoral student in the [Faculty of Computer Science, TU Dresden](https://tu-dresden.de/ing/informatik?set_language=en) under the supervision of [Prof. Jens Lehmann](https://jens-lehmann.org/) and [Prof. Ivo Sbalzarini](https://www.mpi-cbg.de/research/researchgroups/currentgroups/ivo-sbalzarini/group-leader). My active areas of research includes enhancement of factuality and reasoning in large language models (LLMs) with knowledge graphs. I have also investigated temporal understanding and reasoning in LLMs. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I worked as a LLM-Engineer at [Fraunhofer IAIS](https://www.iais.fraunhofer.de/de/institut/dresden.html) for training 7B decoder based models from scratch with A100 GPUs under the [OPENGPTx](https://opengpt-x.de/) project. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my Masters from TU Dresden with major in Deep Learning and Bachelors from IIIT, HP in Computer Science. During the tenure of these degrees, I worked on a wide range of projects including machine learning, computer vision and tabular sythetic data generation.
+
+I aim to work on projects that either push the boundaries of biology and medicine to improve lives or unlock new discoveries about the universe, ultimately making a lasting impact on humanity.
