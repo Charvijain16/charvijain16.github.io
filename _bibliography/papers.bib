@@ -6,7 +6,7 @@
   booktitle={2019 5th International Conference on Advanced Computing \& Communication Systems (ICACCS)},
   pages={492--495},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
 }
 
 @inproceedings{jain2019image,
@@ -43,16 +43,78 @@
   organization={IEEE}
 }
 
-@article{ali2023tokenizer,
-  title={Tokenizer Choice For LLM Training: Negligible or Crucial?},
-  author={Ali, Mehdi and Fromm, Michael and Thellmann, Klaudia and Rutmann, Richard and L{\"u}bbering, Max and Leveling, Johannes and Klug, Katrin and Ebert, Jan and Doll, Niclas and Buschhoff, Jasper Schulze and others},
-  journal={arXiv preprint arXiv:2310.08754},
-  year={2023}
+@misc{aurora_2024,
+      title={Evaluating Large Language Model Literature Reviews In Interdisciplinary Science: A Systems Biology Perspective},
+      author={Charvi Jain and Sahar Vahdati and Nandu Gopan and Ivo F. Sbalzarini and Jens Lehmann},
+      abstract={We evaluate the effectiveness of current large language model (LLM) literature review systems in interdisciplinary
+      domains. While LLMs can support and accelerate reviewing the scientific literature, it is unclear how they cope
+      with interdisciplinary science, where sources from multiple fields must be integrated according to relevance
+      defined by context. We study this from the perspective of systems biology, a field that combines biology,
+      mathematics, physics, and computer science. Using a set of expert-defined research questions, we assess the
+      ability of LLMs to meaningfully integrate cross-domain knowledge and correctly reflect relevance. Specifically,
+      we evaluate the quality of generated reports and the relevance of retrieved references from five different review
+      models. We find that LLMs are a valuable augmentative tool for literature reviews, but trade off report quality for
+      completeness in interdisciplinary domains. We address these limitations by proposing a novel method, termed
+      AURORA, which is particularly designed for interdisciplinary applications. On the interdisciplinary systems
+      biology benchmark, AURORA offers good coverage with high-quality reports.},
+      booktitle = {International Conference on Knowledge Engineering and Knowledge Management: EKAW 2024},
+      address = {Amsterdam, The Netherlands},
+      month={Nov},
+      year= {2024},
+      pdf={SB_AURORA_EKAW.pdf},
+      poster={SB_AURORA_EKAW_Poster.pdf},
+      preview={AURORA_AND_OTHERS.png},
+  }
+
+@misc{ali2024teuken7bbaseteuken7binstructeuropean,
+      title={Teuken-7B-Base & Teuken-7B-Instruct: Towards European LLMs}, 
+      author={Mehdi Ali and Michael Fromm and Klaudia Thellmann and Jan Ebert and Alexander Arno Weber and Richard Rutmann and Charvi Jain and Max Lübbering and Daniel Steinigen and Johannes Leveling and Katrin Klug and Jasper Schulze Buschhoff and Lena Jurkschat and Hammam Abdelwahab and Benny Jörg Stein and Karl-Heinz Sylla and Pavel Denisov and Nicolo' Brandizzi and Qasid Saleem and Anirban Bhowmick and Lennard Helmer and Chelsea John and Pedro Ortiz Suarez and Malte Ostendorff and Alex Jude and Lalith Manjunath and Samuel Weinbach and Carolin Penke and Oleg Filatov and Shima Asaadi and Fabio Barth and Rafet Sifa and Fabian Küch and Andreas Herten and René Jäkel and Georg Rehm and Stefan Kesselheim and Joachim Köhler and Nicolas Flores-Herr},
+      month={Oct},
+      year={2024},
+      abstract={We present two multilingual LLMs designed to embrace Europe's linguistic diversity by supporting all 24 official languages of the European Union. Trained on a dataset comprising around 60% non-English data and utilizing a custom multilingual tokenizer, our models address the limitations of existing LLMs that predominantly focus on English or a few high-resource languages. We detail the models' development principles, i.e., data composition, tokenizer optimization, and training methodologies. The models demonstrate competitive performance across multilingual benchmarks, as evidenced by their performance on European versions of ARC, HellaSwag, MMLU, and TruthfulQA.},
+      eprint={2410.03730},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.03730},
+      pdf={https://arxiv.org/pdf/2410.03730},
 }
 
-@article{ali2024progress,
-  title={Progress Report: Towards European LLMs},
-  author={Ali, Mehdi and Fromm, Michael and Thellmann, Klaudia and Ebert, Jan and Weber, Alexander Arno and Rutmann, Richard and Jain, Charvi and L{\"u}bbering, Max and Steinigen, Daniel and Leveling, Johannes and others},
-  journal={arXiv preprint arXiv:2410.03730},
-  year={2024}
+
+@inproceedings{ali-etal-2024-tokenizer,
+    title = "Tokenizer Choice For {LLM} Training: Negligible or Crucial?",
+    author = {Ali, Mehdi  and
+      Fromm, Michael  and
+      Thellmann, Klaudia  and
+      Rutmann, Richard  and
+      L{\"u}bbering, Max  and
+      Leveling, Johannes  and
+      Klug, Katrin  and
+      Ebert, Jan  and
+      Doll, Niclas  and
+      Buschhoff, Jasper  and
+      Jain, Charvi  and
+      Weber, Alexander  and
+      Jurkschat, Lena  and
+      Abdelwahab, Hammam  and
+      John, Chelsea  and
+      Ortiz Suarez, Pedro  and
+      Ostendorff, Malte  and
+      Weinbach, Samuel  and
+      Sifa, Rafet  and
+      Kesselheim, Stefan  and
+      Flores-Herr, Nicolas},
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
+    month = {jun},
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-naacl.247",
+    doi = "10.18653/v1/2024.findings-naacl.247",
+    pages = "3907--3924",
+    abstract = "The recent success of large language models (LLMs) has been predominantly driven by curating the training dataset composition, scaling of model architectures and dataset sizes and advancements in pretraining objectives, leaving tokenizer influence as a blind spot.Shedding light on this underexplored area, we conduct a comprehensive study on the influence of tokenizer choice on LLM downstream performance by training 24 mono- and multilingual LLMs at a 2.6B parameter scale, ablating different tokenizer algorithms and parameterizations. Our studies highlight that the tokenizer choice can significantly impact the model{'}s downstream performance and training costs. In particular, we find that the common tokenizer evaluation metrics fertility and parity are not always predictive of model downstream performance, rendering these metrics a questionable proxy for the model{'}s downstream performance. Furthermore, we show that multilingual tokenizers trained on the five most frequent European languages require vocabulary size increases of factor three in comparison to English. While English-centric tokenizers have been applied to the training of multi-lingual LLMs in the past, we find that this approach results in a severe downstream performance degradation and additional training costs of up to 68{\%}, due to an inefficient tokenization vocabulary.",
 }
+
+
