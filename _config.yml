@@ -54,7 +54,7 @@ socials_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1400px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -643,9 +643,9 @@ jsonresume:
   - basics
   - work
   - education
-  - internships
-  - publications
   - projects
+  - internships
+  - hackathons
   - volunteer
   - awards
   - certificates
