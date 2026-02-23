@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a first year doctoral student in the [Faculty of Computer Science, TU Dresden](https://tu-dresden.de/ing/informatik?set_language=en) under the supervision of [Prof. Jens Lehmann](https://jens-lehmann.org/) and [Prof. Ivo Sbalzarini](https://www.mpi-cbg.de/research/researchgroups/currentgroups/ivo-sbalzarini/group-leader). My active areas of research includes enhancement of factuality and reasoning in large language models (LLMs) with knowledge graphs. I have also investigated temporal understanding and reasoning in LLMs. 
+I am a second year doctoral student in the [Faculty of Computer Science, TU Dresden](https://tu-dresden.de/ing/informatik?set_language=en) under the supervision of [Prof. Jens Lehmann](https://jens-lehmann.org/) and [Prof. Ivo Sbalzarini](https://www.mpi-cbg.de/research/researchgroups/currentgroups/ivo-sbalzarini/group-leader). My research focuses on knowledge-grounded large language models, investigating how conversational AI systems can dynamically retrieve and effectively integrate external scientific knowledge with parametric knowledge to produce long-form reports. I am broadly interested in autonomous, agentic architectures for literature synthesis and hypothesis generation, with the overarching goal of building trustworthy AI systems that meaningfully accelerate scientific discovery.
 
 Previously, I worked as an LLM Research Engineer at [Fraunhofer IAIS](https://www.iais.fraunhofer.de/de/institut/dresden.html) for training 7B decoder based models from scratch with A100 GPUs under the [OPENGPTx](https://opengpt-x.de/) project. 
 
